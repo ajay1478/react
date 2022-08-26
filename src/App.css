@@ -1,0 +1,201 @@
+/* Default Css */
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none !important;
+}
+
+li {
+  list-style: none;
+}
+
+
+/* Main Css */
+
+.login-box{
+  margin: auto;
+}
+
+.register-box{
+  margin: auto;
+}
+
+
+/* navigation css */
+
+.toggle_icon {
+  color: white;
+}
+
+.navbar-brand img {
+  height: 40px;
+  color: white;
+}
+
+.first_menu {
+  display: flex;
+  align-items: center; 
+  margin-left: 140px;
+}
+
+.first_menu li {
+  position: relative;
+}
+
+.first_menu li a {
+  display: block;
+  font-family: 'Nunito Sans', sans-serif;
+  font-weight: bold;
+  color: white !important;
+  font-size: 15px;
+  margin-right: 10px;
+}
+
+.first_menu li a:hover {
+  color: #ff5a3c !important;
+}
+
+.second_menu {
+  position: absolute;
+  top: 150%;
+  left: 0;
+  background-color: white;
+  color: black;
+  width: 200px;
+  align-items: center;
+  box-shadow: 1px 2px 2px rgba(0, 0, 0, 0.2);
+  border-top: 5px #ff5a3c solid;
+  z-index: 999;
+  transition: .3s;
+  opacity: 0;
+  visibility: hidden;
+}
+
+.second_menu li a {
+  color: black !important;
+  padding: 15px 5px;
+}
+
+.first_menu li:hover .second_menu {
+  opacity: 1;
+  visibility: visible;
+  top: 100%;
+}
+
+
+
+
+/* Start Footer Css */
+
+.footer_area {
+  padding: 50px 0;
+  background-color: #040404;
+  position: relative;
+  z-index: 1;
+}
+
+.contact_box h3 {
+  font-size: 22px;
+  margin-bottom: 20px;
+  color: #fbc31b;
+  font-weight: 600;
+  padding-left: 25px;
+
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.contact_box p {
+  margin-bottom: 0;
+  margin-top: 7px;
+  position: relative;
+  padding-left: 25px;
+  color: #939393;
+}
+
+.contact_box .footer_phone {
+  color: rgb(135, 133, 133);
+}
+
+.contact_box p a {
+  color: #fbc31b;
+}
+
+.footer_icon {
+  margin-right: 5px;
+  color: #FBC31B;
+}
+
+.contact_box p.opening_hours {
+  overflow: hidden;
+  padding: 0;
+  text-align: left;
+}
+
+.contact_box p.opening_hours span {
+  float: right;
+  margin-right: 25px;
+}
+
+.footer_form .footer_control {
+  width: 100%;
+  padding: 10px 20px;
+  border: 0;
+  height: auto;
+  background-color: transparent;
+  font-weight: 500;
+  border-radius: 50px;
+  border-bottom: 3px solid #fbc31b;
+}
+
+.contact_box form .btn {
+  display: block;
+  font-size: 18px;
+  width: 100%;
+  padding: 3px 0;
+  margin-top: 10px;
+  height: 42px;
+  color: white;
+  font-weight: 800;
+  border: 2px solid white;
+  transition: .5s;
+}
+
+.contact_box form .btn:hover {
+  background-color: #FBC31B;
+}
+
+.btn .form_icon {
+  margin-left: 10px;
+}
+
+.margin_bottom {
+  margin-bottom: 30px;
+}
+
+.copy_left p {
+  color: white;
+  margin-left: 25px;
+}
+
+.copy_right {
+  text-align: right;
+}
+
+.copy_right a {
+  color: white;
+}
+
+.copy_right a:hover {
+  color: white;
+}
+
+.copy_right span {
+  color: white;
+  font-size: 16px;
+  padding: 0 15px 0 15px;
+}
